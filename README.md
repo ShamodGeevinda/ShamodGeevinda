@@ -25,14 +25,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ShamodGeevinda&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="GitHub Trophies"/>
-</p>
-
----
-
 <!--
 **ShamodGeevinda/ShamodGeevinda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
