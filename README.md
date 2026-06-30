@@ -6,8 +6,8 @@
 
 <p align="center">
 <a href="https://github.com/ShamodGeevinda">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ShamodGeevinda&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ShamodGeevinda&layout=compact&langs_count=8&theme=algolia"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ShamodGeevinda&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&custom_title=My%20GitHub%20Statistics&cache_seconds=14400"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ShamodGeevinda&layout=compact&langs_count=8&theme=algolia&custom_title=My%20Programming%20Languages&cache_seconds=14400"/>
 </a>
 </p>
 
