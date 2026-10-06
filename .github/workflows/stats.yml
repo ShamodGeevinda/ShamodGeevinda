@@ -1,0 +1,35 @@
+name: Generate stats card
+
+on:
+  schedule:
+    - cron: "43 0 * * *" # daily
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/stats_card.py dist/github-stats.svg
+
+      # A separate branch from the snake's, since each push replaces the
+      # branch contents.
+      - name: Push card to the stats branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: stats
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
