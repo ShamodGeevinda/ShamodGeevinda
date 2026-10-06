@@ -20,7 +20,11 @@
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ShamodGeevinda&bg_color=050F2C&color=00AEFF&line=00AEFF&point=FFFFFF&area=true&area_color=00AEFF&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Graph"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShamodGeevinda/ShamodGeevinda/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShamodGeevinda/ShamodGeevinda/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/ShamodGeevinda/ShamodGeevinda/output/github-contribution-grid-snake.svg" alt="Contribution snake"/>
+  </picture>
 </p>
 
 ---
